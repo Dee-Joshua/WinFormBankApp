@@ -10,10 +10,10 @@ namespace BankAppModel.Entities
         public int UserId { get; set; }
         public string Number { get; set; }
         public AccountType Type { get; set; }
+        [Column(TypeName = "money")]
         public decimal Balance { get; set; }
 
         // Navigation property
-        public User User { get; set; }
         public ICollection<Transaction> Transactions { get; set; }
     }
 

@@ -11,7 +11,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BankAppRepository", "BankAp
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BankAppModel", "BankAppModel\BankAppModel.csproj", "{1BB03290-8680-4ACB-A96D-9072CD649323}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BankAppUtility", "BankAppUtility\BankAppUtility.csproj", "{AD74946F-9AF1-4AC6-9904-5E486BCE3CB2}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BankAppCommon", "BankAppUtility\BankAppCommon.csproj", "{AD74946F-9AF1-4AC6-9904-5E486BCE3CB2}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

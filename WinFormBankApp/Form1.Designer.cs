@@ -71,6 +71,7 @@
             // 
             txtUsername.BackColor = Color.FromArgb(230, 231, 233);
             txtUsername.BorderStyle = BorderStyle.None;
+            txtUsername.Cursor = Cursors.IBeam;
             txtUsername.Font = new Font("MS UI Gothic", 15.75F, FontStyle.Regular, GraphicsUnit.Point);
             txtUsername.Location = new Point(33, 249);
             txtUsername.Multiline = true;
@@ -82,6 +83,7 @@
             // 
             txtPassword.BackColor = Color.FromArgb(230, 231, 233);
             txtPassword.BorderStyle = BorderStyle.None;
+            txtPassword.Cursor = Cursors.IBeam;
             txtPassword.Font = new Font("MS UI Gothic", 15.75F, FontStyle.Regular, GraphicsUnit.Point);
             txtPassword.Location = new Point(33, 305);
             txtPassword.Multiline = true;
@@ -102,6 +104,7 @@
             // 
             txtComPassword.BackColor = Color.FromArgb(230, 231, 233);
             txtComPassword.BorderStyle = BorderStyle.None;
+            txtComPassword.Cursor = Cursors.IBeam;
             txtComPassword.Font = new Font("MS UI Gothic", 15.75F, FontStyle.Regular, GraphicsUnit.Point);
             txtComPassword.Location = new Point(33, 361);
             txtComPassword.Multiline = true;
@@ -143,6 +146,7 @@
             signUp.TabIndex = 8;
             signUp.Text = "SIGNUP";
             signUp.UseVisualStyleBackColor = false;
+            signUp.Click += signUp_Click;
             // 
             // label5
             // 
@@ -159,17 +163,18 @@
             label6.AutoSize = true;
             label6.Cursor = Cursors.Hand;
             label6.ForeColor = Color.FromArgb(116, 86, 174);
-            label6.Location = new Point(87, 502);
+            label6.Location = new Point(90, 502);
             label6.Name = "label6";
-            label6.Size = new Size(101, 17);
+            label6.Size = new Size(97, 17);
             label6.TabIndex = 10;
-            label6.Text = "Back to SIGNIN";
+            label6.Text = "Back to LOGIN";
             label6.Click += label6_Click;
             // 
             // txtMobile
             // 
             txtMobile.BackColor = Color.FromArgb(230, 231, 233);
             txtMobile.BorderStyle = BorderStyle.None;
+            txtMobile.Cursor = Cursors.IBeam;
             txtMobile.Font = new Font("MS UI Gothic", 15.75F, FontStyle.Regular, GraphicsUnit.Point);
             txtMobile.Location = new Point(33, 195);
             txtMobile.Multiline = true;
@@ -190,6 +195,7 @@
             // 
             txtFirstName.BackColor = Color.FromArgb(230, 231, 233);
             txtFirstName.BorderStyle = BorderStyle.None;
+            txtFirstName.Cursor = Cursors.IBeam;
             txtFirstName.Font = new Font("MS UI Gothic", 15.75F, FontStyle.Regular, GraphicsUnit.Point);
             txtFirstName.Location = new Point(33, 139);
             txtFirstName.Multiline = true;
@@ -210,6 +216,7 @@
             // 
             txtLastName.BackColor = Color.FromArgb(230, 231, 233);
             txtLastName.BorderStyle = BorderStyle.None;
+            txtLastName.Cursor = Cursors.IBeam;
             txtLastName.Font = new Font("MS UI Gothic", 15.75F, FontStyle.Regular, GraphicsUnit.Point);
             txtLastName.Location = new Point(32, 86);
             txtLastName.Multiline = true;

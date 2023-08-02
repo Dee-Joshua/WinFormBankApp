@@ -11,7 +11,7 @@ namespace BankAppCore.Services.Abstractions
     {
         
         Task<IEnumerable<Transaction>> GetTransactionsByAccountNumberAsync(string accountNumber);
-        Task<IEnumerable<Transaction>> GetAllDailyTransaction(DateOnly date);
+        Task<IEnumerable<Transaction>> GetAllDailyTransaction(string date);
         Task DeleteTransactionAsync(int id);
     }
 }

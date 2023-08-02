@@ -7,11 +7,6 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="ServiceManager\Abstraction\" />
-    <Folder Include="ServiceManager\Implementation\" />
-  </ItemGroup>
-
-  <ItemGroup>
     <ProjectReference Include="..\BankAppModel\BankAppModel.csproj" />
     <ProjectReference Include="..\BankAppRepository\BankAppRepository.csproj" />
   </ItemGroup>

@@ -9,10 +9,12 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="Guna.UI2.WinForms" Version="2.0.4.4" />
     <PackageReference Include="Microsoft.Extensions.Configuration" Version="7.0.0" />
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\BankAppCore\BankAppCore.csproj" />
     <ProjectReference Include="..\BankAppRepository\BankAppRepository.csproj" />
   </ItemGroup>
 
